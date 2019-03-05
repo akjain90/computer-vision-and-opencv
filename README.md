@@ -1,6 +1,4 @@
 # computer-vision-and-opencv
-Practice of assignments of course udacity introduction to computer vision
+Practice of following course
 <br>
-Files referred: https://github.com/gkouros/intro-to-cv-ud810
-<br>
-course link: https://classroom.udacity.com/courses/ud810
+course link: https://www.pyimagesearch.com/free-opencv-computer-vision-deep-learning-crash-course/?fbclid=IwAR0cJtVwH8rsmu7h0ZClt6aV0PEf44UyxbiRjj2WF0Df4vtLyK-lyzw2slw
