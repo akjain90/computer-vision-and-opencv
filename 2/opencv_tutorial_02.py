@@ -51,7 +51,7 @@ cv2.waitKey(0)
 
 #Dilation
 mask = thresh.copy()
-mask = cv2.dilate(mask, None, iterations=15)
+mask = cv2.dilate(mask, None, iterations=5)
 #mask = cv2.erode(mask,None, iterations=15)
 cv2.imshow("Dilate", mask)
 cv2.waitKey(0)
