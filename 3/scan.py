@@ -34,7 +34,7 @@ edged = cv2.Canny(gray,50,150)
 #cv2.imshow("Canny", edged)
 #cv2.waitKey(0)
 
-cnts = cv2.findContours(edged, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+cnts = cv2.findContours(edged.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
 cnts = imutils.grab_contours(cnts)
 cnts = sorted(cnts, key= cv2.contourArea, reverse=True)[:5]
 
@@ -60,6 +60,7 @@ print("STEP 3: Apply perspective transform")
 cv2.imshow("Original", imutils.resize(orig, height = 650))
 cv2.imshow("Scanned", imutils.resize(warped, height = 650))
 cv2.waitKey(0)
+
 
 
 
